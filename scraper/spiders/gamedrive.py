@@ -10,7 +10,6 @@ class GameDriveSpider(scrapy.Spider):
         "https://gamedrive.org/elamigos-repacks-a-z/",
         "https://gamedrive.org/all-dodi-repacks-a-z/",
         "https://gamedrive.org/fitgirl-repacks-a-z/",
-        "https://gamedrive.org/kaos-repacks-a-z/",
         "https://gamedrive.org/m4ckd0ge-repacks-a-z/",
         "https://gamedrive.org/scooter-repacks-a-z/",
         ]
