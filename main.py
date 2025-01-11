@@ -41,6 +41,7 @@ from scraper.spiders.kaoskrew import KaosKrewSpider
 from scraper.spiders.cpg import CPGSpider
 from scraper.spiders.gamebounty import GameBountySpider
 from scraper.spiders.gamedrive import GameDriveSpider
+from scraper.spiders.games4u import Games4USpider
 #time
 now=datetime.now()
 current_time = now.strftime("%H:%M:%S")
@@ -69,6 +70,7 @@ crawler.crawl(ArchivePlayableSpider) # https://archive.org
 crawler.crawl(KaosKrewSpider) # https://kaoskrew.org
 crawler.crawl(CPGSpider) # https://cpgrepacks.site
 crawler.crawl(GameBountySpider) # https://gamebounty.world
+crawler.crawl(Games4USpider) # https://games4u.org
 crawler.start()
 #meilisearch
 SEARCHCLIENT = config("SEARCHCLIENT")
